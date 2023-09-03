@@ -21,8 +21,16 @@ export default {
   data() {
     return {
       inputText: "",
-      tasks: []
+      tasks: JSON.parse(localStorage.getItem('tasks')) || []
     };
+  },
+  watch: {
+    tasks: {
+      handler(newValue) {
+        localStorage.setItem('tasks', JSON.stringify(newValue));
+      },
+      deep: true
+    }
   },
   methods: {
     addElement() {
