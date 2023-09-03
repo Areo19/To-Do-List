@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #dee7ee;
+    height: 100vh;
+    width: 100vw;
+}
+.to_do_container{
+    width: 580px;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 24px 16px;
+}
+h1{
+  text-align: center;
+  margin: 8px 0px;
+  color:#3d4852
+}
+.adding-new-position{
+    padding: 16px 0px;
+    display: flex;
+}
+.input-box{
+    width: 75%;
+    height: 24px;
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-family: serif;
+    border: 2px solid #f1f5f8;
+    color: #3d4852;
+}
+.btn-add{
+    width: 15%;
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: #6cb2eb;
+    background: #6cb2eb;
+    color: white;
+    float: right;
+    font-family: serif;
+    margin-left :20px
+}
+.to-do-list{
+    list-style-type: none;
+    padding: 8px 0px;
+    margin: 0px;
+}
+.to-do-list li{
+    padding-left: 16px;
+    border-radius: 5px;
+    align-items: center;
+    font-family: serif;
+    display: flex;
+    margin: 12px 0px;
+}
+.to-do-list .to-do-text{
+    outline: none;
+    font-family: serif;
+    width: 100%;
+    font-size: 16px;
+    font-family: serif;
+    color: #3d4852;
+}
+.to-do-list button{
+    float: right;
+    margin-left: 4px;
+    border-radius: 5px;
+    border: 2px rgb(233, 277, 227);
+    height: 24px;
+    font-family: serif;
+    width: 48px;
+}
+.to-do-list .btn-edit {
+    background: #6cb2eb;
+    color: white
+}
+.to-do-list .btn-delete {
+    background: crimson;
+    color: white;
+}
+.to-do-list .input_list{
+    background: #6cb2eb;
+    color: white;
+    border: #6cb2eb;
+}

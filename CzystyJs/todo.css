@@ -1,0 +1,71 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background: #4040e9;
+}
+.to_do_container{
+    width: 580px;
+    top: 50%;
+    left: 50%;
+    background: #6a6ad2af;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 24px 16px;
+}
+.input_box{
+    width: 75%;
+    height: 24px;
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: #4343d0;
+    outline: none;
+}
+.add_button{
+    width: 15%;
+    height: 45px;
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: #4040e9;
+    background: #4040e9;
+    color: white;
+    float: right;
+}
+.adding_new_position{
+    position: relative;
+    padding: 16px 0px;
+}
+.to_do_list{
+    list-style-type: none;
+    padding: 16px 0px;
+    margin: 0px;
+}
+.to_do_list li{
+    padding: 8px 0px 8px 16px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    font-size: 16px;
+    align-items: center;
+    height: 24px;
+}
+.to_do_list .span{
+    outline: none;
+}
+.to_do_list button{
+    float: right;
+    margin-left: 4px;
+    border-radius: 5px;
+    border: 2px rgb(233, 277, 227);
+    height: 24px;
+    
+}
+.to_do_list .edit {
+    background: #4040e9;
+    color: white
+}
+.to_do_list .delete {
+    background: crimson;
+    color: white;
+} */
