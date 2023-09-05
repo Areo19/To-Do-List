@@ -1,8 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
     background: #dee7ee;
-    width: 100vw;
     height: 100vh;
 }
 #app{
@@ -10,86 +12,5 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     min-height: 100vh;
-}
-.task-container{
-    min-width: 580px;
-    background: white;
-    border-radius: 10px;
-    position: relative;
-    padding: 24px 16px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-.app-title{
-  text-align: center;
-  margin: 8px 0px;
-  color:#3d4852;
-  
-}
-.input-wrapper{
-    padding: 16px 0px;
-    display: flex;
-}
-.input-box{
-    width: 75%;
-    height: 24px;
-    padding: 8px 16px 8px 16px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: rgba(0, 0, 0, 0.1);
-    outline: none;
-    font-family: serif;
-    border: 2px solid #f1f5f8;
-    color: #3d4852;
-}
-.btn-add{
-    width: 15%;
-    padding: 8px 16px 8px 16px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: #6cb2eb;
-    background: #6cb2eb;
-    color: white;
-    float: right;
-    font-family: serif;
-    margin-left :20px
-}
-.task-list{
-    list-style-type: none;
-    padding: 8px 0px;
-    margin: 0px;
-}
-.task-list li{
-    padding-left: 16px;
-    border-radius: 5px;
-    align-items: center;
-    font-family: serif;
-    display: flex;
-    margin: 12px 0px;
-}
-.task-list .task-text{
-    outline: none;
-    font-family: serif;
-    width: 100%;
-    font-size: 16px;
-    color: #3d4852;
-}
-.task-list button{
-    float: right;
-    margin-left: 4px;
-    border-radius: 5px;
-    border: 2px rgb(233, 277, 227);
-    height: 24px;
-    font-family: serif;
-    width: 48px;
-}
-.task-list .btn-edit {
-    background: #6cb2eb;
-    color: white
-}
-.task-list .btn-delete {
-    background: crimson;
-    color: white;
 }
